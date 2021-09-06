@@ -1,1 +1,1 @@
-debugging project in ALX
+C debugging project
