@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-char * _strcat - a function that concatenates tow strings
+* char * _strcat - a function that concatenates tow strings
 */
 
-char *_strcat (char *dest, char *src)
+char *_strcat(char *dest, char *src)
 
 {
 int i, j;
