@@ -3,8 +3,8 @@
 /**
  * _strlen_recursion - this function returns the length of a string.
  * 
- * @s: Variable representing a string.
- * 
+ * @s: Variable representing a string
+ *
  * Return: void
  */
 
