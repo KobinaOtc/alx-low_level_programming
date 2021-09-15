@@ -4,7 +4,7 @@
  * _strlen_recursion - this function returns the length of a string.
  * 
  * @s: Variable representing a string.
- *
+ * 
  * Return: void
  */
 
@@ -15,5 +15,5 @@ return (0);
 else
 s++;
 
-return ( 1 + _strlen_recursion(s));
+return (1 + _strlen_recursion(s));
 }
