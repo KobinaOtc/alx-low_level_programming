@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - this function returns the length of a string.
- * 
- * @s: Variable representing a string
- *
- * Return: void
- */
+ * * _strlen_recursion - this function returns the length of a string.
+ * *
+ * * @s: Variable representing a string
+ * *
+ * * Return: void
+ * */
 
 int _strlen_recursion(char *s)
 {
