@@ -3,15 +3,15 @@
 #include "3-calc.h"
 
 /**
-* main - simple operations program
-* @argc: argument counter
-* @argv: argument array
-* Return: 0 mostly
+* main - performs simple operations
+* @argc: number of arguments passed
+* @argv: array of pointers to arguments
+*
+* Return: always 0
 */
-
 int main(int argc, char *argv[])
 {
-int i, j, k;
+int a, b, c;
 int (*f)(int, int);
 
 if (argc != 4)
@@ -19,15 +19,15 @@ if (argc != 4)
 printf("Error\n");
 exit(98);
 }
-i = atoi(argv[1]);
-j = atoi(argv[3]);
+a = atoi(argv[1]);
+b = atoi(argv[3]);
 f = get_op_func(argv[2]);
 if (f == NULL)
 {
 printf("Error\n");
 exit(99);
 }
-k = f(i, j);
-printf("%d\n", k);
+c = f(a, b);
+printf("%d\n", c);
 return (0);
 }
